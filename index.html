@@ -6,6 +6,13 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+
   <title>Frontend Mentor | Results summary component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -14,14 +21,14 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
+<body class="flex-center">
 
-  <main>
-      <div class="results-div">
-          <div class="results-div-container">
+  <main class="flex-center">
+      <div class="results-div flex-center">
+          <div class="results-div-container flex-center">
               <span class="result-heading heading">Your Result</span>
 
-              <div class="results-numbers-div">
+              <div class="results-numbers-div flex-center">
                   <p><span class="result">76</span> of 100</p>
               </div>
 
@@ -31,44 +38,46 @@
           </div>
       </div>
 
-      <div class="summary-div">
-          <span class="summary-heading heading">Summary</span>
-          <ul>
-              <li>
-                  <div class="summary-category">
-                      <img src="images/icon-reaction.svg" alt="reaction icon">
-                      <span class="reaction category-title">Reaction</span>
-                  </div>
-                  <p><span class="category-rating">80</span> / 100</p>
-              </li>
+      <div class="summary-div flex-center">
+          <div class="summary-div-container flex-center">
+              <span class="summary-heading heading">Summary</span>
+              <ul>
+                  <li>
+                      <div class="summary-category">
+                          <img src="images/icon-reaction.svg" alt="reaction icon">
+                          <span class="reaction category-title">Reaction</span>
+                      </div>
+                      <p><span class="category-rating">80</span> / 100</p>
+                  </li>
 
-              <li>
-                  <div class="summary-category">
-                      <img src="images/icon-memory.svg" alt="memory icon">
-                      <span class="memory category-title">Memory</span>
-                  </div>
-                  <p><span class="category-rating">92</span> / 100</p>
-              </li>
+                  <li>
+                      <div class="summary-category">
+                          <img src="images/icon-memory.svg" alt="memory icon">
+                          <span class="memory category-title">Memory</span>
+                      </div>
+                      <p><span class="category-rating">92</span> / 100</p>
+                  </li>
 
-              <li>
-                  <div class="summary-category">
-                      <img src="images/icon-verbal.svg" alt="verbal icon">
-                      <span class="verbal category-title">Verbal</span>
-                  </div>
-                  <p><span class="category-rating">61</span> / 100</p>
-              </li>
+                  <li>
+                      <div class="summary-category">
+                          <img src="images/icon-verbal.svg" alt="verbal icon">
+                          <span class="verbal category-title">Verbal</span>
+                      </div>
+                      <p><span class="category-rating">61</span> / 100</p>
+                  </li>
 
-              <li>
-                  <div class="summary-category">
-                      <img src="images/icon-visual.svg" alt="visual icon">
-                      <span class="visual category-title">Visual</span>
-                  </div>
-                  <p><span class="category-rating">72</span> / 100</p>
-              </li>
+                  <li>
+                      <div class="summary-category">
+                          <img src="images/icon-visual.svg" alt="visual icon">
+                          <span class="visual category-title">Visual</span>
+                      </div>
+                      <p><span class="category-rating">72</span> / 100</p>
+                  </li>
 
-          </ul>
+              </ul>
 
-          <a href="https://lesleywesley.github.io/portfolio/">Continue</a>
+              <a href="https://lesleywesley.github.io/portfolio/">Continue</a>
+          </div>
       </div>
   </main>
 
